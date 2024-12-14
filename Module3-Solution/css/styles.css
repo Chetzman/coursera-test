@@ -1,0 +1,104 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #F9F9F9;
+}
+
+#navbar-entirety {
+    background-color: #333333;
+}
+
+#header-nav {
+    padding:0;
+}
+
+#company-name {
+    color: #FFFFFF;
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+#collapsable-nav {
+    border: 2px solid transparent;
+}
+
+#collapsable-nav:hover{
+    border: 2px solid #F1C232;
+}
+
+#collapsable-nav:focus{
+    border: 2px solid #F1C232;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path fill="rgb(252,252,252)" d="M5 6h20c.553 0 1 .447 1 1s-.447 1-1 1H5c-.553 0-1-.447-1-1s.447-1 1-1zm20 7H5c-.553 0-1 .447-1 1s.447 1 1 1h20c.553 0 1-.447 1-1s-.447-1-1-1zm0 7H5c-.553 0-1 .447-1 1s.447 1 1 1h20c.553 0 1-.447 1-1s-.447-1-1-1z"/></svg>');
+}
+
+#menu-items {
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+#food-list {
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#food-list li{
+    text-align: center;
+    background-color: #666666;
+    border-top: 1px solid #FFFFFF;
+}
+
+#food-list li:hover{
+    background-color: #F1C232;
+    color: #333;
+    cursor: pointer;
+}
+
+#food-list li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#food-list li:hover a{
+    color: #333;
+}
+
+#menu-title {
+    margin-top: 1.1rem;
+    color: #333;
+}
+
+#menu-item-description {
+    margin: 1.1rem;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 25px;
+}
+
+#menu-item-description p {
+    padding: 1.5rem;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+@media (max-width: 576px) {
+    #menu-title {
+        margin-top: 3rem;
+    }
+    
+    #menu-item-description {
+        margin: 3rem;
+    }
+
+    #menu-item-description p {
+        padding: 3rem;
+        padding-top: 1rem;
+    }
+}
